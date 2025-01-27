@@ -1,0 +1,91 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Tue Apr  2 14:37:58 2024
+| Host         : DESKTOP-VCH1095 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file CricketGame_TopModule_control_sets_placed.rpt
+| Design       : CricketGame_TopModule
+| Device       : xc7a35t
+--------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    13 |
+|    Minimum number of control sets                        |    13 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    34 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    13 |
+| >= 0 to < 4        |     2 |
+| >= 4 to < 6        |     0 |
+| >= 6 to < 8        |     4 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     3 |
+| >= 14 to < 16      |     1 |
+| >= 16              |     3 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              26 |           14 |
+| No           | No                    | Yes                    |               1 |            1 |
+| No           | Yes                   | No                     |              43 |           13 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |              72 |           28 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------------------+---------------------------------+--------------------------------------+------------------+----------------+
+|           Clock Signal           |          Enable Signal          |           Set/Reset Signal           | Slice Load Count | Bel Load Count |
++----------------------------------+---------------------------------+--------------------------------------+------------------+----------------+
+|  Game_Over_BUFG                  |                                 |                                      |                1 |              1 |
+|  CG2/CG2_2/CLK                   |                                 |                                      |                1 |              2 |
+|  clk_fpga_IBUF_BUFG              |                                 |                                      |                6 |              7 |
+|  clk_fpga_IBUF_BUFG              |                                 | Game_Reset_IBUF                      |                4 |              7 |
+|  clk_fpga_IBUF_BUFG              | CG1/CG1_3/E[0]                  | Game_Reset_IBUF                      |                3 |              7 |
+|  clk_fpga_IBUF_BUFG              | CG1/CG1_3/Q_reg[0]              | Game_Reset_IBUF                      |                4 |              7 |
+|  clk_fpga_IBUF_BUFG              | CG1/CG1_2/Wickets[3]_i_1_n_0    | Game_Reset_IBUF                      |                5 |             12 |
+|  clk_fpga_IBUF_BUFG              | CG1/CG1_1/shift_reg[0]_0[0]     | Game_Reset_IBUF                      |                4 |             12 |
+|  clk_fpga_IBUF_BUFG              | CG1/CG1_1/E[0]                  | Game_Reset_IBUF                      |                6 |             12 |
+|  clk_fpga_IBUF_BUFG              |                                 | CG2/CG2_2/clk_1kHz                   |                4 |             15 |
+|  CG1/CG1_4/CG1_4_1/CG1_4_1_1/CLK |                                 |                                      |                6 |             16 |
+|  clk_fpga_IBUF_BUFG              |                                 | CG1/CG1_4/CG1_4_1/CG1_4_1_1/clk_10Hz |                6 |             22 |
+|  clk_fpga_IBUF_BUFG              | CG1/CG1_3/Innings_Over_reg_1[0] | Game_Reset_IBUF                      |                6 |             22 |
++----------------------------------+---------------------------------+--------------------------------------+------------------+----------------+
+
+

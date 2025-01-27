@@ -1,0 +1,451 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Apr  2 14:36:15 2024
+# Process ID: 9300
+# Current directory: C:/Users/PC04/Desktop/project_2/project_2.runs/synth_1
+# Command line: vivado.exe -log CricketGame_TopModule.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source CricketGame_TopModule.tcl
+# Log file: C:/Users/PC04/Desktop/project_2/project_2.runs/synth_1/CricketGame_TopModule.vds
+# Journal file: C:/Users/PC04/Desktop/project_2/project_2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source CricketGame_TopModule.tcl -notrace
+Command: synth_design -top CricketGame_TopModule -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 6816 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 795.668 ; gain = 234.352
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'CricketGame_TopModule' [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/Cricket.v:22]
+INFO: [Synth 8-6157] synthesizing module 'Debounce' [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/debounce.v:22]
+INFO: [Synth 8-6157] synthesizing module 'D_FF' [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/D_FF.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'D_FF' (1#1) [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/D_FF.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Debounce' (2#1) [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/debounce.v:22]
+INFO: [Synth 8-6157] synthesizing module 'Cricket_Game' [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/cricketGame.v:22]
+INFO: [Synth 8-6157] synthesizing module 'LFSR' [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/lfsr.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'LFSR' (3#1) [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/lfsr.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Team_Score' [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/score_and_wickets.v:23]
+	Parameter single bound to: 16 - type: integer 
+	Parameter double bound to: 32 - type: integer 
+	Parameter triple bound to: 48 - type: integer 
+	Parameter four bound to: 64 - type: integer 
+	Parameter six bound to: 96 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Team_Score' (4#1) [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/score_and_wickets.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Score_Comparator' [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/score_comparator.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Score_Comparator' (5#1) [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/score_comparator.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Led_Controller' [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/led_controller.v:22]
+INFO: [Synth 8-6157] synthesizing module 'Scroll_Leds' [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/scroll_Leds.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Slow_Clock_10Hz' [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/slowClock_10Hz.v:23]
+	Parameter clkdiv bound to: 4999999 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Slow_Clock_10Hz' (6#1) [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/slowClock_10Hz.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Scroll_Leds' (7#1) [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/scroll_Leds.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Led_Controller' (8#1) [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/led_controller.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'Cricket_Game' (9#1) [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/cricketGame.v:22]
+INFO: [Synth 8-6157] synthesizing module 'BCD_Display' [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/bcdDisplay.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Binary_to_BCD' [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/binary_to_BCD.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Binary_to_BCD' (10#1) [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/binary_to_BCD.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Slow_Clock_1kHz' [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/slowClock_1kHz.v:23]
+	Parameter clkdiv bound to: 49999 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Slow_Clock_1kHz' (11#1) [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/slowClock_1kHz.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Two_Bit_Counter' [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/two_bit_counter.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Two_Bit_Counter' (12#1) [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/two_bit_counter.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Decoder_2x4' [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/decoder2to4.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Decoder_2x4' (13#1) [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/decoder2to4.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Mux_4x1' [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/mux4to1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Mux_4x1' (14#1) [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/mux4to1.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BCD_7seg' [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/bcd7seg.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'BCD_7seg' (15#1) [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/bcd7seg.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'BCD_Display' (16#1) [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/bcdDisplay.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'CricketGame_TopModule' (17#1) [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/Cricket.v:22]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 869.039 ; gain = 307.723
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 869.039 ; gain = 307.723
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 869.039 ; gain = 307.723
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 869.039 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/constrs_1/new/cricketConstraints.xdc]
+WARNING: [Vivado 12-507] No nets matched 'CG1/CG1_3/Game_Over_reg_2'. [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/constrs_1/new/cricketConstraints.xdc:304]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/constrs_1/new/cricketConstraints.xdc:304]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'CG1/CG1_3/Game_Over_reg_3'. [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/constrs_1/new/cricketConstraints.xdc:305]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/constrs_1/new/cricketConstraints.xdc:305]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'CG1/CG1_3/Game_Over_reg_4'. [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/constrs_1/new/cricketConstraints.xdc:306]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/constrs_1/new/cricketConstraints.xdc:306]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'CG1/CG1_3/Innings_Over_reg_1'. [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/constrs_1/new/cricketConstraints.xdc:307]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/constrs_1/new/cricketConstraints.xdc:307]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'CG1/CG1_3/seg_OBUF[6]_inst_i_18_n_0'. [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/constrs_1/new/cricketConstraints.xdc:308]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/constrs_1/new/cricketConstraints.xdc:308]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/constrs_1/new/cricketConstraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/constrs_1/new/cricketConstraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/CricketGame_TopModule_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/CricketGame_TopModule_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 965.035 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 965.035 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 965.035 ; gain = 403.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 965.035 ; gain = 403.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 965.035 ; gain = 403.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 965.035 ; gain = 403.719
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     23 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 12    
+	   2 Input      7 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               23 Bit    Registers := 1     
+	               16 Bit    Registers := 3     
+	               12 Bit    Registers := 2     
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 2     
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input     23 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 1     
+	   7 Input     12 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      7 Bit        Muxes := 7     
+	   2 Input      4 Bit        Muxes := 11    
+	   4 Input      4 Bit        Muxes := 2     
+	   8 Input      3 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 7     
+	   4 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module D_FF 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module LFSR 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                6 Bit    Registers := 1     
+Module Team_Score 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 12    
++---Registers : 
+	               12 Bit    Registers := 2     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   7 Input     12 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 3     
+	   8 Input      3 Bit        Muxes := 2     
+	   8 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module Score_Comparator 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 3     
+Module Slow_Clock_10Hz 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     23 Bit       Adders := 1     
++---Registers : 
+	               23 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     23 Bit        Muxes := 1     
+Module Scroll_Leds 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+Module Led_Controller 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                7 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 7     
+	   2 Input      1 Bit        Muxes := 5     
+Module Binary_to_BCD 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 8     
+	   2 Input      2 Bit        Muxes := 1     
+Module Slow_Clock_1kHz 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module Two_Bit_Counter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                2 Bit    Registers := 1     
+Module Decoder_2x4 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+Module Mux_4x1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 965.035 ; gain = 403.719
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 965.035 ; gain = 403.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 968.461 ; gain = 407.145
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 972.285 ; gain = 410.969
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 977.078 ; gain = 415.762
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 977.078 ; gain = 415.762
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 977.078 ; gain = 415.762
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 977.078 ; gain = 415.762
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 977.078 ; gain = 415.762
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 977.078 ; gain = 415.762
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |    46|
+|3     |LUT1   |    27|
+|4     |LUT2   |    32|
+|5     |LUT3   |    15|
+|6     |LUT4   |    40|
+|7     |LUT5   |    32|
+|8     |LUT6   |    71|
+|9     |FDCE   |    67|
+|10    |FDRE   |    63|
+|11    |FDSE   |     6|
+|12    |IBUF   |     4|
+|13    |OBUF   |    28|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------------+-----------------+------+
+|      |Instance          |Module           |Cells |
++------+------------------+-----------------+------+
+|1     |top               |                 |   433|
+|2     |  CG0             |Debounce         |     4|
+|3     |    d1            |D_FF             |     2|
+|4     |    d2            |D_FF_0           |     2|
+|5     |  CG1             |Cricket_Game     |   328|
+|6     |    CG1_1         |LFSR             |    25|
+|7     |    CG1_2         |Team_Score       |   155|
+|8     |    CG1_3         |Score_Comparator |    22|
+|9     |    CG1_4         |Led_Controller   |   126|
+|10    |      CG1_4_1     |Scroll_Leds      |    66|
+|11    |        CG1_4_1_1 |Slow_Clock_10Hz  |    39|
+|12    |  CG2             |BCD_Display      |    67|
+|13    |    CG2_1         |Binary_to_BCD    |    14|
+|14    |    CG2_2         |Slow_Clock_1kHz  |    28|
+|15    |    CG2_3         |Two_Bit_Counter  |    25|
++------+------------------+-----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 977.078 ; gain = 415.762
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:27 ; elapsed = 00:00:34 . Memory (MB): peak = 977.078 ; gain = 319.766
+Synthesis Optimization Complete : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 977.078 ; gain = 415.762
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 989.074 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 46 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 991.352 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+46 Infos, 5 Warnings, 5 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 991.352 ; gain = 688.270
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 991.352 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/PC04/Desktop/project_2/project_2.runs/synth_1/CricketGame_TopModule.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file CricketGame_TopModule_utilization_synth.rpt -pb CricketGame_TopModule_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Apr  2 14:37:02 2024...
