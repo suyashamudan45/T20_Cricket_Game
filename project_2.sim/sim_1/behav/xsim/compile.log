@@ -1,0 +1,36 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/D_FF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_FF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/bcd7seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCD_7seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/bcdDisplay.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCD_Display
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/binary_to_BCD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Binary_to_BCD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/cricketGame.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Cricket_Game
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/debounce.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Debounce
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/decoder2to4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Decoder_2x4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/led_controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Led_Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/lfsr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LFSR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/mux4to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_4x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/score_and_wickets.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Team_Score
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/score_comparator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Score_Comparator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/scroll_Leds.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Scroll_Leds
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/slowClock_10Hz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Slow_Clock_10Hz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/slowClock_1kHz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Slow_Clock_1kHz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/two_bit_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Two_Bit_Counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/Cricket.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CricketGame_TopModule
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PC04/Desktop/project_2/project_2.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

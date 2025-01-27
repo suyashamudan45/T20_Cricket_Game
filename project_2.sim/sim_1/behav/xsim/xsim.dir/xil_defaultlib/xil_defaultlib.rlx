@@ -1,0 +1,22 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/Users/PC04/Desktop/project_2/project_2.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/Cricket.v,1710743248,verilog,,,,CricketGame_TopModule,,,,,,,,
+C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/D_FF.v,1710743248,verilog,,C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/bcd7seg.v,,D_FF,,,,,,,,
+C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/bcd7seg.v,1710743248,verilog,,C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/bcdDisplay.v,,BCD_7seg,,,,,,,,
+C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/bcdDisplay.v,1710743248,verilog,,C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/binary_to_BCD.v,,BCD_Display,,,,,,,,
+C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/binary_to_BCD.v,1710743248,verilog,,C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/cricketGame.v,,Binary_to_BCD,,,,,,,,
+C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/cricketGame.v,1710743248,verilog,,C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/debounce.v,,Cricket_Game,,,,,,,,
+C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/debounce.v,1710743248,verilog,,C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/decoder2to4.v,,Debounce,,,,,,,,
+C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/decoder2to4.v,1710743248,verilog,,C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/led_controller.v,,Decoder_2x4,,,,,,,,
+C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/led_controller.v,1710743248,verilog,,C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/lfsr.v,,Led_Controller,,,,,,,,
+C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/lfsr.v,1710743248,verilog,,C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/mux4to1.v,,LFSR,,,,,,,,
+C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/mux4to1.v,1710743248,verilog,,C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/score_and_wickets.v,,Mux_4x1,,,,,,,,
+C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/score_and_wickets.v,1710743248,verilog,,C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/score_comparator.v,,Team_Score,,,,,,,,
+C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/score_comparator.v,1710743248,verilog,,C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/scroll_Leds.v,,Score_Comparator,,,,,,,,
+C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/scroll_Leds.v,1710743248,verilog,,C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/slowClock_10Hz.v,,Scroll_Leds,,,,,,,,
+C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/slowClock_10Hz.v,1710743248,verilog,,C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/slowClock_1kHz.v,,Slow_Clock_10Hz,,,,,,,,
+C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/slowClock_1kHz.v,1710743248,verilog,,C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/two_bit_counter.v,,Slow_Clock_1kHz,,,,,,,,
+C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/two_bit_counter.v,1710743248,verilog,,C:/Users/PC04/Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/Cricket.v,,Two_Bit_Counter,,,,,,,,

@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Mar 18 12:28:07 2024
+# Process ID: 10412
+# Current directory: C:/Users/PC04/Desktop/project_2/project_2.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/PC04/Desktop/project_2/project_2.sim/sim_1/behav/xsim/xsim.dir/CricketGame_TopModule_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/PC04/Desktop/project_2/project_2.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/PC04/Desktop/project_2/project_2.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/PC04/Desktop/project_2/project_2.sim/sim_1/behav/xsim/xsim.dir/CricketGame_TopModule_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon Mar 18 12:28:09 2024...

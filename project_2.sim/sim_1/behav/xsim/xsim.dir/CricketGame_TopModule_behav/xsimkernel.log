@@ -1,0 +1,7 @@
+Running: xsim.dir/CricketGame_TopModule_behav/xsimk.exe -simmode gui -wdb CricketGame_TopModule_behav.wdb -simrunnum 0 -socket 53727
+Design successfully loaded
+Design Loading Memory Usage: 5640 KB (Peak: 5640 KB)
+Design Loading CPU Usage: 46 ms
+Simulation completed
+Simulation Memory Usage: 6384 KB (Peak: 6384 KB)
+Simulation CPU Usage: 77 ms

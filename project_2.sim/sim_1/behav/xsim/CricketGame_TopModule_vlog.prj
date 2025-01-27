@@ -1,0 +1,25 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/D_FF.v" \
+"../../../../../../Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/bcd7seg.v" \
+"../../../../../../Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/bcdDisplay.v" \
+"../../../../../../Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/binary_to_BCD.v" \
+"../../../../../../Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/cricketGame.v" \
+"../../../../../../Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/debounce.v" \
+"../../../../../../Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/decoder2to4.v" \
+"../../../../../../Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/led_controller.v" \
+"../../../../../../Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/lfsr.v" \
+"../../../../../../Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/mux4to1.v" \
+"../../../../../../Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/score_and_wickets.v" \
+"../../../../../../Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/score_comparator.v" \
+"../../../../../../Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/scroll_Leds.v" \
+"../../../../../../Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/slowClock_10Hz.v" \
+"../../../../../../Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/slowClock_1kHz.v" \
+"../../../../../../Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/two_bit_counter.v" \
+"../../../../../../Downloads/project_1-20240318T062627Z-001/project_1/project_1.srcs/sources_1/new/Cricket.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
